@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\BDahmen\\source\\repos\\Solution3\\Solution3.Module.Win\\Solution3.Module.Win.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\BDahmen\\source\\repos\\Solution3\\Solution3.Module.Win\\Solution3.Module.Win.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BDahmen\\source\\repos\\Solution3\\Solution3.Module.Win\\Solution3.Module.Win.csproj",
+        "projectName": "Solution3.Module.Win",
+        "projectPath": "C:\\Users\\BDahmen\\source\\repos\\Solution3\\Solution3.Module.Win\\Solution3.Module.Win.csproj",
+        "packagesPath": "C:\\Users\\BDahmen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BDahmen\\source\\repos\\Solution3\\Solution3.Module.Win\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\BDahmen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\DevProjects\\LocalNugets": {},
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Tools\\eXpandFramework20140": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://xpandnugetserver.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Users\\BDahmen\\source\\repos\\Solution3\\Solution3.Module\\Solution3.Module.csproj": {
+                "projectPath": "C:\\Users\\BDahmen\\source\\repos\\Solution3\\Solution3.Module\\Solution3.Module.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Xpand.XAF.Core.All": {
+              "target": "Package",
+              "version": "[2.201.35, )"
+            },
+            "Xpand.XAF.Win.All": {
+              "target": "Package",
+              "version": "[2.201.35, )"
+            },
+            "eXpandAgnostic": {
+              "target": "Package",
+              "version": "[20.1.401, )"
+            },
+            "eXpandWin": {
+              "target": "Package",
+              "version": "[20.1.401, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\BDahmen\\source\\repos\\Solution3\\Solution3.Module\\Solution3.Module.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BDahmen\\source\\repos\\Solution3\\Solution3.Module\\Solution3.Module.csproj",
+        "projectName": "Solution3.Module",
+        "projectPath": "C:\\Users\\BDahmen\\source\\repos\\Solution3\\Solution3.Module\\Solution3.Module.csproj",
+        "packagesPath": "C:\\Users\\BDahmen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BDahmen\\source\\repos\\Solution3\\Solution3.Module\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\BDahmen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\DevProjects\\LocalNugets": {},
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Tools\\eXpandFramework20140": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://xpandnugetserver.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Xpand.XAF.Core.All": {
+              "target": "Package",
+              "version": "[2.201.35, )"
+            },
+            "Xpand.XAF.Win.All": {
+              "target": "Package",
+              "version": "[2.201.35, )"
+            },
+            "eXpandAgnostic": {
+              "target": "Package",
+              "version": "[20.1.401, )"
+            },
+            "eXpandWin": {
+              "target": "Package",
+              "version": "[20.1.401, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="e4beb29b-08cb-4c2d-ad47-9ece8461605c" namespace="Solution3.Module.BusinessObjects.Beispiel" dataBaseShemaInfo="H4sIAAAAAAAEAO1Z224URxB9R+IfVn6mdqvv3Wi9CGxAiAQQhojXvlTbm6x3rZ1Z2/n71PiGL0Ac2cwmVl5G09XVmjldp6tOzYyfHe/PBoe0bKaL+eaGGOLGs8njR+MXsaGddrGMu/RmXhcD9po3T4+b6ebGXtsePB2Njo6OhkdquFjujiSiGH359ZedvEf7Eabzpo3zTBsXq8rfr9rgpw4G408xzajpHnkyPrdcMpyb3sV9muy0q0Lzdjz6arrwejnvbJN2uaLx6GxwMbk9bTrD54MSW5rUOGvY6arxwvf1alrelImnWKxEA0GrAjqGCgGDhURoUYiQDfrx6Mz5YvHWYrbanzdXAHzXzBMdhtPJSXc7Hl0yXHH8Ebx/CvEyTKzJpBod+GId6CA0eCklkDae4UqXUr4Bk5eP7oD0zXb/OEmnYIgkiFQSaMwSGDaCdyknqYXH6G6N81vWM1Lemstbs9g0z3uhMjn0UQpGjMxipnIEH9FCzSkUh8X4/BCo7AJGTYGAKATQBSt4bRQgWRlkMsHl8hCoHMhn9MQ4cyTQMmRg9lpQ1VRVopa24H3jfD8t/QNVmIJCChBC0qC9SRC1sxBzsJEwFaFvD/TezuyLfsqPy8mQFIBCuS5fCQiuVKhJyWiEU97rez2zz3fXcmS9iCJ4iKg4wkprSNIHUIWsMQGd8arXCL+mOS3j7MvB+/Q75Vb2EmsnsycTJG+A5/zsuAZzrA0YEbOvlVIW4V5jvdMup/Pd/sMdrUVTogKrCqMViTOXYMhOKeVCwFL97TP0vR3orf+D/K8N8i2xvqLZGupTrkkG7wskn7hFEDJBMF4D2ixQaynQrEFT9sJmVlOZTObuKKrIlGboKWYEhSGj8s4WfbNtuAub1yG0HKtGrBJBFMvVKSiuU0klZnJOxDitqvcutNYjnX3ArFlycDgFgq624zTfOeQ9IGHQ1p7r8HKxOuiFyUpUE0wRLC1zZpFpWWRKbo6QU7T3gbdF0Q+ZPBjdBWM/HaAmz31ezSB9ZjWps4boqAJGb7SOiZSVPxFkP5J5fZFcHLFq7EdFKO1qwi583N7q4hxEW7klqtqRzM7KYu81766l8dPJOG8Ep1vicqotIaQiHRRnqvaFuCe8Gck7Jt7z09g3VqFKMpXjmGvh1KtqgZBMhOqVwKysLeGBFBlVdTU5KahS267IIATpJJhsuaf1hvAbX1TviHR7sQYFnKuSgRU9oBQBNEUDnH86mYSx8CVXd1Pq/8xqerILPWQn4YNDrAg2205GJIJA3OgIZYtRfGvoxxn4v0HkgjEH5yx45CBrlSKEgpJzcs01S5GkrQ/hQ6O2JqkgBGQlBRebGrjOSA/c4/gsXUk13iw2d+Hx2firy7j7KUXlw3KRL1fo8W+nf7Am23T48vhgSU0z3I5tHB5KHIong7PpzW401EN8MthazdrVkjbntGqXcfZk8GGVZtP8lv78tPiD5puJ2zjhDBdURNIhjkfnjzh53kljRU0XgI+ri90dPy/8alSnx1+VA5t2VvWK6SPtLw7puuOp9brvVmxo8nme9+J8l7jynoxPt+Zb7zDmnTmgZTtd87t95zXGp5/TWmbt/j7N2+aMozfMV5y3qZnu8u2rKVPh2oqrcyfL3q1ms441L2gvHk4XSyZFjRxuPi/XZx4/Go+u/eqc/AVFewt/Ex0AAA==" generateConnectionHelper="true" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" connectionStringName="IF-PC24Beispiel" createdInVersion="20.1.4.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="false" lastModifiedInVersion="20.1.4.0" name="Beispiel" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="419fd018-4142-4523-bdbc-ea35f9a3b35f">
+      <xpObject Id="8ead6205-943d-4a9f-9096-be060119c508" name="Student" baseClass="XPObject" userFileName="Student" designerFileName="Student.Designer" className="Student" virtualName="Student">
+        <fields>
+          <generalXpObjectHasFields Id="3010deb1-7923-4e28-8a2a-7020d300a320">
+            <field Id="0fb5bfa7-8d67-4914-8222-e45809627bbc" name="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="23d04ed3-af5b-4baa-b3e8-0eb64c38cd8d">
+            <field Id="e4b95ee2-1bdb-40c2-bfa0-87bcb24180a7" name="ID" columnType="Int64" virtualColumnType="Int64" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="5ec4299a-bdaa-4a2c-a5ad-b02326aaf9f8">
+      <xpObject Id="b59ce5c5-9a3a-432b-bac0-309c03876d4c" name="Class" baseClass="XPObject" userFileName="Class" designerFileName="Class.Designer" className="Class" virtualName="Class">
+        <fields>
+          <generalXpObjectHasFields Id="8007e7bc-189e-4979-8b0c-70573efdf6d9">
+            <field Id="792b0f20-1d64-4938-ab3b-73cbe9c063f0" name="ID" columnType="Int64" virtualColumnType="Int64" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="fb2cf2f0-9e03-4b05-a35a-165db0e2e865">
+            <field Id="890c487c-9a10-4f6d-b810-70792e1506f3" name="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="afbf92b5-ae74-4f51-b25a-4b828c4b8e4b">
+      <xpObject Id="31f595d1-a4cc-486b-a206-0471889c483e" name="GroupB" baseClass="Class" userFileName="GroupB" designerFileName="GroupB.Designer" className="GroupB" virtualBaseClass="Class" virtualName="GroupB">
+        <superClass>
+          <inheritance Id="e9ffe771-8f15-49ef-940b-dcbd150dcaaf">
+            <xpObjectMoniker Id="b59ce5c5-9a3a-432b-bac0-309c03876d4c" />
+          </inheritance>
+        </superClass>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="127cc984-1a9e-4742-ba24-85cf73789ec1">
+      <xpObject Id="4e870dfc-28c7-44c4-a7ef-0a8544abe362" name="GroupA" baseClass="Class" userFileName="GroupA" designerFileName="GroupA.Designer" className="GroupA" virtualBaseClass="Class" virtualName="GroupA">
+        <superClass>
+          <inheritance Id="14e14a43-dedf-45b8-a378-2366703b1bb2">
+            <xpObjectMoniker Id="b59ce5c5-9a3a-432b-bac0-309c03876d4c" />
+          </inheritance>
+        </superClass>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="b33a7c9b-816c-4c9c-87c0-dae826586e66">
+      <xpObject Id="7347fb04-a70f-4d77-a6f6-af47e2c762d6" name="owner" baseClass="XPCustomObject" userFileName="owner" designerFileName="owner.Designer" className="owner" virtualBaseClass="XPCustomObject" virtualName="owner">
+        <fields>
+          <generalXpObjectHasFields Id="4d2464b1-8e59-4018-b683-23436bf408fa">
+            <field Id="4b578518-ae84-46e0-bd27-d75f48de0e9e" name="Oid" columnType="Guid" key="true" isIdentity="true" virtualColumnType="Guid" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="cd1cd216-540f-4d86-82ef-070a0f89fe3e">
+            <field Id="3f4f5cb3-f246-4f60-9272-5c632a85e008" name="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="687bd928-e76a-470e-8e8f-0601f7cc0f13">
+            <field Id="cf329feb-0219-4ea5-889a-430ad430cf79" name="Dog" columnType="DateTime" virtualColumnType="Dog" logicalType="Dog" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="a1900d12-836b-4cb6-9995-d71dd34b03d4">
+      <xpObject Id="189700f0-6c60-4fbe-9e14-136d539e15ee" name="Dog" baseClass="XPObject" userFileName="Dog" designerFileName="Dog.Designer" className="Dog" virtualName="Dog">
+        <fields>
+          <generalXpObjectHasFields Id="61c052c2-9a35-4b98-8c26-f1d8bd89fbed">
+            <field Id="d0ac9776-80eb-43ba-9d02-a7fcfc21b26f" name="Name" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="52c7900f-4028-4d71-b169-06a6d5b788cd">
+            <field Id="465b3911-c321-4df9-af28-5848c27dbfa6" name="ID" columnType="Int64" virtualColumnType="Int64" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>

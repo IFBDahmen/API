@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2C4A9980-6B40-4B0C-BEA6-1C28CF13F42F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Solution3.Module</RootNamespace>
+    <AssemblyName>Solution3.Module</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'EasyTest|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\EasyTest\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;EASYTEST</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v20.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.v20.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Xpo.v20.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.Base.v20.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.BaseImpl.v20.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v20.1.Core">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v20.1">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.Services" />
+    <Reference Include="System.Data.Services.Client" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="Xpand.ExpressApp.IO, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessObjects\ORMDataModel1Code\Class.cs" />
+    <Compile Include="BusinessObjects\ORMDataModel1Code\Class.Designer.cs">
+      <DependentUpon>Class.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\ORMDataModel1Code\ConnectionHelper.cs" />
+    <Compile Include="BusinessObjects\ORMDataModel1Code\Dog.cs" />
+    <Compile Include="BusinessObjects\ORMDataModel1Code\Dog.Designer.cs">
+      <DependentUpon>Dog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\ORMDataModel1Code\GroupB.cs" />
+    <Compile Include="BusinessObjects\ORMDataModel1Code\GroupB.Designer.cs">
+      <DependentUpon>GroupB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\ORMDataModel1Code\GroupA.cs" />
+    <Compile Include="BusinessObjects\ORMDataModel1Code\GroupA.Designer.cs">
+      <DependentUpon>GroupA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\ORMDataModel1Code\owner.cs" />
+    <Compile Include="BusinessObjects\ORMDataModel1Code\owner.Designer.cs">
+      <DependentUpon>owner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\ORMDataModel1Code\Student.cs" />
+    <Compile Include="BusinessObjects\ORMDataModel1Code\Student.Designer.cs">
+      <DependentUpon>Student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\ClassController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\ClassController.Designer.cs">
+      <DependentUpon>ClassController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseUpdate\Updater.cs" />
+    <Compile Include="Module.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Module.Designer.cs">
+      <DependentUpon>Module.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controllers\ClassController.resx">
+      <DependentUpon>ClassController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="BusinessObjects\ORMDataModel1.xpo" />
+    <None Include="BusinessObjects\ORMDataModel1.xpo.diagram">
+      <DependentUpon>ORMDataModel1.xpo</DependentUpon>
+    </None>
+    <None Include="BusinessObjects\ReadMe.txt" />
+    <None Include="Controllers\ReadMe.txt" />
+    <None Include="DatabaseUpdate\ReadMe.txt" />
+    <None Include="Images\ReadMe.txt" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FunctionalTests\config.xml" />
+    <None Include="FunctionalTests\sample.ets" />
+    <None Include="FunctionalTests\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Welcome.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="eXpandAgnostic">
+      <Version>20.1.401</Version>
+    </PackageReference>
+    <PackageReference Include="eXpandWin">
+      <Version>20.1.401</Version>
+    </PackageReference>
+    <PackageReference Include="Xpand.XAF.Core.All">
+      <Version>2.201.35</Version>
+    </PackageReference>
+    <PackageReference Include="Xpand.XAF.Win.All">
+      <Version>2.201.35</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

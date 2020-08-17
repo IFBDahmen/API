@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems>
+    <Items>
+      <Item Id="Item">
+        <Items>
+          <Item Id="@2745a6c7-770e-4c15-a642-0b7f78e2acda" ViewId="SequenceStorage_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="IOModule" Version="20.1.401.0" IsNewNode="True" />
+    <SchemaModule Name="IOWinModule" Version="20.1.401.0" IsNewNode="True" />
+    <SchemaModule Name="LogicModule" Version="20.1.401.0" IsNewNode="True" />
+    <SchemaModule Name="ModelArtifactStateModule" Version="20.1.401.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="20.1.4.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="20.1.4.0" IsNewNode="True" />
+    <SchemaModule Name="XpandSecurityModule" Version="20.1.401.0" IsNewNode="True" />
+    <SchemaModule Name="XpandSystemModule" Version="20.1.401.0" IsNewNode="True" />
+    <SchemaModule Name="XpandSystemWindowsFormsModule" Version="20.1.401.0" IsNewNode="True" />
+    <SchemaModule Name="XpandTreeListEditorsModule" Version="20.1.401.0" IsNewNode="True" />
+    <SchemaModule Name="XpandTreeListEditorsWinModule" Version="20.1.401.0" IsNewNode="True" />
+    <SchemaModule Name="XpandValidationModule" Version="20.1.401.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>

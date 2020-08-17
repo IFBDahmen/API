@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="Solution3">
+  <NavigationItems>
+    <Items>
+      <Item Id="Item" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@05163296-49d6-438c-acd7-d951c81f63ab" ViewId="owner_ListView" IsNewNode="True" />
+          <Item Id="@0bb0957c-da2a-4ed9-a41d-65a6cf6c5f5b" ViewId="GroupB_ListView" IsNewNode="True" />
+          <Item Id="@14eeba9e-7ca1-4370-b2c4-ae38294f7426" ViewId="Class_ListView" IsNewNode="True" />
+          <Item Id="@d103c841-bf85-40a1-9245-e5e94695aae1" ViewId="GroupA_ListView" IsNewNode="True" />
+          <Item Id="Student" ViewId="Student_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="IOModule" Version="20.1.401.0" IsNewNode="True" />
+    <SchemaModule Name="LogicModule" Version="20.1.401.0" IsNewNode="True" />
+    <SchemaModule Name="ModelArtifactStateModule" Version="20.1.401.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="20.1.4.0" IsNewNode="True" />
+    <SchemaModule Name="XpandSecurityModule" Version="20.1.401.0" IsNewNode="True" />
+    <SchemaModule Name="XpandValidationModule" Version="20.1.401.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>
