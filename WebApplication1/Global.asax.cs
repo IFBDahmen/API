@@ -29,13 +29,15 @@ namespace WebApplication1
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
 
+            XafTypesInfo.Instance.RegisterEntity(typeof(Xpand.XAF.Modules.SequenceGenerator.SequenceGeneratorModule));
             XafTypesInfo.Instance.RegisterEntity(typeof(Solution3.Module.Solution3Module));
 
         }
 
         //protected void Session_Start(object sender, EventArgs e)
         //{
-        //   WebApplication.SetInstance(Session, new Solution3.Module.Solution3Module());
+
+        //    WebApplication.SetInstance(Session, new Solution3.Module.Solution3Module());
         //    //...
         //    WebApplication.Instance.Setup("MySolution", WebApplication.Instance.ConnectionString,
         //       System.Configuration.ConfigurationManager.AppSettings["Modules"].Split(';'));

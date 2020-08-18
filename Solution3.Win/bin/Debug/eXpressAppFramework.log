@@ -20094,3 +20094,904 @@ Loaded assemblies
 								Context.SelectedObjects.Count: 1
 								Context.CurrentObject: Solution3.Module.BusinessObjects.Beispiel.owner(0949b81c-ce2d-4954-8a05-f17120f76a6c)
 
+18.08.20 12:11:20.501	================================================================================
+18.08.20 12:11:20.503	Trace Log for Solution3.Win.exe is started
+18.08.20 12:11:20.503	================================================================================
+18.08.20 12:11:20.504	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 20.1.4.0
+	eXpressApp File Version: 20.1.4.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+
+18.08.20 12:11:20.880	Initialize application
+=======================
+18.08.20 12:11:20.882		Command line arguments: 
+		C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\bin\Debug\Solution3.Win.exe
+18.08.20 12:11:22.015	The ValueManagerType is initialized by the default value: SimpleValueManager.
+18.08.20 12:11:22.028	Stack trace:
+   bei DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   bei DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   bei System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   bei DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   bei Xpand.ExpressApp.Logic.LogicInstallerManager.get_Instance()
+   bei Xpand.ExpressApp.ModelArtifactState.ModelArtifactStateModule..ctor()
+   bei Create_ModelArtifactStateModule()
+   bei DevExpress.ExpressApp.Utils.Reflection.TypeData.CreateInstance(Object[] args)
+   bei DevExpress.ExpressApp.ModuleBase.CreateModule(Type moduleType, ModelStoreBase diffsStore)
+   bei DevExpress.ExpressApp.Core.ModuleFactory.ModuleFactoryWithResourcesDiffsStore.CreateModule(Type moduleType)
+   bei DevExpress.ExpressApp.ApplicationModulesManager.EnsureModuleInList(Type moduleType, IList`1 moduleList, List`1 requiredModules)
+   bei DevExpress.ExpressApp.ApplicationModulesManager.AddModuleIntoList(ModuleBase module, IList`1 moduleList, List`1 requiredModules)
+   bei DevExpress.ExpressApp.ApplicationModulesManager.EnsureModuleInList(Type moduleType, IList`1 moduleList, List`1 requiredModules)
+   bei DevExpress.ExpressApp.ApplicationModulesManager.AddModuleIntoList(ModuleBase module, IList`1 moduleList, List`1 requiredModules)
+   bei DevExpress.ExpressApp.ModuleList.RefreshRequiredModules()
+   bei DevExpress.ExpressApp.ModuleList.OnInitializeComplete()
+   bei DevExpress.ExpressApp.Utils.BindingListBase`1.EndInit()
+   bei DevExpress.ExpressApp.XafApplication.EndInit()
+   bei Solution3.Win.Solution3WindowsFormsApplication.InitializeComponent() in C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\WinApplication.Designer.cs:Zeile 44.
+   bei Solution3.Win.Solution3WindowsFormsApplication..ctor() in C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\WinApplication.cs:Zeile 30.
+   bei Solution3.Win.Program.Main() in C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\Program.cs:Zeile 31.
+
+18.08.20 12:11:23.537	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+18.08.20 12:11:23.538	--------------------------------------------------------------------------------
+							
+
+18.08.20 12:11:23.551	--------------------------------------------------------------------------------
+Loaded assemblies
+	0Harmony, Version=2.0.0.9, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\0Harmony\v4.0_2.0.0.9__c52ffed5d5ff0958\0Harmony.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	ConcurrentCollections, Version=1.1.0.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\ConcurrentCollections\v4.0_1.1.0.0__c52ffed5d5ff0958\ConcurrentCollections.dll
+	DevExpress.Data.Desktop.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.Desktop.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Data.Desktop.v20.1.dll
+	DevExpress.Data.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Data.v20.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v20.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v20.1.dll
+	DevExpress.ExpressApp.Security.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v20.1.dll
+	DevExpress.ExpressApp.Security.Xpo.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v20.1.dll
+	DevExpress.ExpressApp.TreeListEditors.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.TreeListEditors.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.TreeListEditors.v20.1.dll
+	DevExpress.ExpressApp.TreeListEditors.Win.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.TreeListEditors.Win.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.TreeListEditors.Win.v20.1.dll
+	DevExpress.ExpressApp.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.v20.1.dll
+	DevExpress.ExpressApp.v20.1.resources, Version=20.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v20.1.resources\v4.0_20.1.0.0_de_b88d1754d700e49a\DevExpress.ExpressApp.v20.1.resources.dll
+	DevExpress.ExpressApp.Validation.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v20.1.dll
+	DevExpress.ExpressApp.Web.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Web.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Web.v20.1.dll
+	DevExpress.ExpressApp.Win.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v20.1.dll
+	DevExpress.ExpressApp.Xpo.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v20.1.dll
+	DevExpress.Persistent.Base.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Persistent.Base.v20.1.dll
+	DevExpress.Persistent.BaseImpl.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v20.1.dll
+	DevExpress.Printing.v20.1.Core, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v20.1.Core\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Printing.v20.1.Core.dll
+	DevExpress.Utils.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Utils.v20.1.dll
+	DevExpress.Xpo.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Xpo.v20.1.dll
+	DevExpress.XtraBars.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraBars.v20.1.dll
+	DevExpress.XtraEditors.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraEditors.v20.1.dll
+	DevExpress.XtraTreeList.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraTreeList.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraTreeList.v20.1.dll
+	Fasterflect, Version=2.0.7.0, Culture=neutral, PublicKeyToken=38d18473284c1ca7, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Fasterflect\v4.0_2.0.7.0__38d18473284c1ca7\Fasterflect.dll
+	HarmonySharedState, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	Mono.Cecil, Version=0.11.2.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Mono.Cecil\v4.0_0.11.2.0__50cebf1cceb9d05e\Mono.Cecil.dll
+	MonoMod.Common, Version=20.5.27.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\MonoMod.Common\v4.0_20.5.27.0__c52ffed5d5ff0958\MonoMod.Common.dll
+	MonoMod.Utils.Cil.ILGeneratorProxy, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=de, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_de_b77a5c561934e089\mscorlib.resources.dll
+	netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\netstandard\v4.0_2.0.0.0__cc7b13ffcd2ddd51\netstandard.dll
+	Solution3.Module, Version=1.0.0.4, Culture=neutral, PublicKeyToken=null, Location=C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\bin\Debug\Solution3.Module.dll
+	Solution3.Module.Win, Version=1.0.7535.20868, Culture=neutral, PublicKeyToken=null, Location=C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\bin\Debug\Solution3.Module.Win.dll
+	Solution3.Win, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null, Location=C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\bin\Debug\Solution3.Win.exe
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Reactive, Version=4.3.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reactive\v4.0_4.3.0.0__94bc3704cddfc263\System.Reactive.dll
+	System.Reflection.Emit.ILGeneration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection.Emit.ILGeneration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection.Emit.Lightweight\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.Emit.Lightweight.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.InteropServices.RuntimeInformation\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.ValueTuple, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ValueTuple\v4.0_4.0.0.0__cc7b13ffcd2ddd51\System.ValueTuple.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	Xpand.ExpressApp, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.dll
+	Xpand.ExpressApp.IO, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.IO\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.IO.dll
+	Xpand.ExpressApp.IO.Win, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.IO.Win\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.IO.Win.dll
+	Xpand.ExpressApp.Logic, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.Logic\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.Logic.dll
+	Xpand.ExpressApp.ModelArtifactState, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.ModelArtifactState\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.ModelArtifactState.dll
+	Xpand.ExpressApp.Security, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.Security\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.Security.dll
+	Xpand.ExpressApp.TreeListEditors, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.TreeListEditors\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.TreeListEditors.dll
+	Xpand.ExpressApp.TreeListEditors.Win, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.TreeListEditors.Win\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.TreeListEditors.Win.dll
+	Xpand.ExpressApp.Validation, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.Validation\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.Validation.dll
+	Xpand.ExpressApp.Win, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.Win\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.Win.dll
+	Xpand.Extensions, Version=2.201.34.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Extensions\v4.0_2.201.34.0__c52ffed5d5ff0958\Xpand.Extensions.dll
+	Xpand.Extensions.Mono.Cecil, Version=2.201.32.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Extensions.Mono.Cecil\v4.0_2.201.32.0__c52ffed5d5ff0958\Xpand.Extensions.Mono.Cecil.dll
+	Xpand.Extensions.Reactive, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Extensions.Reactive\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.Extensions.Reactive.dll
+	Xpand.Extensions.XAF, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Extensions.XAF\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.Extensions.XAF.dll
+	Xpand.Persistent.Base, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Persistent.Base\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.Persistent.Base.dll
+	Xpand.Utils, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Utils\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.Utils.dll
+	Xpand.XAF.Modules.CloneMemberValue, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.CloneMemberValue\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.CloneMemberValue.dll
+	Xpand.XAF.Modules.CloneModelView, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.CloneModelView\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.CloneModelView.dll
+	Xpand.XAF.Modules.GridListEditor, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.GridListEditor\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.GridListEditor.dll
+	Xpand.XAF.Modules.HideToolBar, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.HideToolBar\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.HideToolBar.dll
+	Xpand.XAF.Modules.ModelMapper, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.ModelMapper\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.ModelMapper.dll
+	Xpand.XAF.Modules.ModelViewInheritance, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.ModelViewInheritance\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.ModelViewInheritance.dll
+	Xpand.XAF.Modules.PositionInListview, Version=2.201.6.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.PositionInListview\v4.0_2.201.6.0__c52ffed5d5ff0958\Xpand.XAF.Modules.PositionInListview.dll
+	Xpand.XAF.Modules.ProgressBarViewItem, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.ProgressBarViewItem\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.ProgressBarViewItem.dll
+	Xpand.XAF.Modules.Reactive, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.Reactive\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.Reactive.dll
+	Xpand.XAF.Modules.Reactive.Logger, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.Reactive.Logger\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.Reactive.Logger.dll
+	Xpand.XAF.Modules.RefreshView, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.RefreshView\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.RefreshView.dll
+	Xpand.XAF.Modules.SequenceGenerator, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.SequenceGenerator\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.SequenceGenerator.dll
+	Xpand.XAF.Modules.ViewItemValue, Version=2.201.1.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.ViewItemValue\v4.0_2.201.1.0__c52ffed5d5ff0958\Xpand.XAF.Modules.ViewItemValue.dll
+	Xpand.Xpo, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Xpo\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.Xpo.dll
+18.08.20 12:11:23.553	Resolve the 'DevExpress.BonusSkins.v20.1, Version=20.1.4.0' assembly
+18.08.20 12:11:24.328	SetupModules
+18.08.20 12:11:25.181	Customize TypesInfo
+18.08.20 12:11:30.083		preferredLanguageName: (User language)
+								userLanguageName: de-DE
+
+18.08.20 12:11:30.084		preferredLanguageName: (User language)
+								userFormattingCultureName: de-DE
+								selectedFormattingCultureName: 
+
+18.08.20 12:11:30.207	--------------------------------------------------------------------------------
+							Start logon process
+
+18.08.20 12:11:30.211	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+18.08.20 12:11:30.212		ConnectionString: XpoProvider=MSSqlServer;data source=IF-PC24;integrated security=SSPI;initial catalog=Beispiel;XpoDataStorePool=True;
+18.08.20 12:11:30.213		ConnectionString: 
+18.08.20 12:11:30.215	Resolve the 'Microsoft.Data.SqlClient' assembly
+18.08.20 12:11:30.233	Resolve the 'System.Data.SqlClient' assembly
+18.08.20 12:11:30.393	--------------------------------------------------------------------------------
+							UpdateDB
+
+18.08.20 12:11:30.394	Resolve the 'Microsoft.Data.SqlClient' assembly
+18.08.20 12:11:30.399	Resolve the 'System.Data.SqlClient' assembly
+18.08.20 12:11:30.421	Resolve the 'Microsoft.Data.SqlClient' assembly
+18.08.20 12:11:30.429	Resolve the 'System.Data.SqlClient' assembly
+18.08.20 12:11:30.433	Resolve the 'Microsoft.Data.SqlClient' assembly
+18.08.20 12:11:30.439	Resolve the 'System.Data.SqlClient' assembly
+18.08.20 12:11:30.444		ConnectionString: XpoProvider=MSSqlServer;data source=IF-PC24;integrated security=SSPI;initial catalog=Beispiel;XpoDataStorePool=True;
+18.08.20 12:11:30.525	--------------------------------------------------------------------------------
+							Logon successful
+
+18.08.20 12:11:30.561	--------------------------------------------------------------------------------
+							Logon completed
+
+18.08.20 12:11:31.043		startUpActions: 1
+18.08.20 12:11:31.139	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+18.08.20 12:11:31.172	Generate default Model for Action containers
+18.08.20 12:11:32.427	Resolve the 'DevExpress.ExpressApp.Win.v20.1.XmlSerializers, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+18.08.20 12:11:32.456	Resolve the 'DevExpress.ExpressApp.Win.v20.1.XmlSerializers, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+18.08.20 12:11:32.569	Resolve the 'Microsoft.Data.SqlClient' assembly
+18.08.20 12:11:32.596	Resolve the 'System.Data.SqlClient' assembly
+18.08.20 12:11:34.042	Application startup done
+=========================
+18.08.20 12:11:34.042	Application running
+====================
+18.08.20 12:11:56.334	--------------------------------------------------------------------------------
+							Execute action
+
+18.08.20 12:11:56.335		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: Xpand.ExpressApp.Security.Controllers.ShowNavigationItemController
+
+18.08.20 12:11:56.335		SelectedItem: Student
+18.08.20 12:11:57.356	Action 'ShowNavigationItem' done
+18.08.20 12:11:57.861	--------------------------------------------------------------------------------
+							Execute action
+
+18.08.20 12:11:57.861		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: Xpand.ExpressApp.Security.Controllers.ShowNavigationItemController
+
+18.08.20 12:11:57.862		SelectedItem: Sequence Storage
+18.08.20 12:11:58.040	Action 'ShowNavigationItem' done
+18.08.20 12:12:01.844	--------------------------------------------------------------------------------
+							Execute action
+
+18.08.20 12:12:01.845		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Delete
+								Category: Edit
+								Controller.Name: DevExpress.ExpressApp.SystemModule.DeleteObjectsViewController
+								Context.Name: Sequence Storage
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Solution3.Module.BusinessObjects.Beispiel.Student
+
+18.08.20 12:12:01.864	Resolve the 'Microsoft.Data.SqlClient' assembly
+18.08.20 12:12:01.885	Resolve the 'System.Data.SqlClient' assembly
+Solution3.Win.exe Error: 0 : 18.08.20 12:12:01.962	================================================================================
+The error occurred:
+
+	Type:       ObjectDisposedException
+	Message:    Auf das verworfene Objekt kann nicht zugegriffen werden.
+Objektname: "Solution3.Module.BusinessObjects.Beispiel.Student".
+	Data:       0 entries
+	Stack trace:
+
+   bei DevExpress.Xpo.PersistentBase.get_Session()
+   bei DevExpress.Xpo.Session.ThrowIfObjectFromDifferentSession(Object obj)
+   bei DevExpress.Xpo.Session.IsObjectToDelete(Object theObject)
+   bei DevExpress.ExpressApp.Xpo.XPObjectSpace.IsObjectToDelete(Object obj)
+   bei Xpand.XAF.Modules.SequenceGenerator.SequenceGeneratorService.<>c.<Configure>b__21_0(SequenceStorage storage)
+   bei System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   bei System.Reactive.Linq.ObservableImpl.ToObservableRecursive`1._.LoopRec(IScheduler scheduler)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Reactive.PlatformServices.ExceptionServicesImpl.Rethrow(Exception exception)
+   bei System.Reactive.Stubs.<>c.<.cctor>b__2_1(Exception ex)
+   bei System.Reactive.AnonymousSafeObserver`1.OnError(Exception error)
+   bei System.Reactive.Sink`1.ForwardOnError(Exception error)
+   bei System.Reactive.HalfSerializer.ForwardOnError[T](ISink`1 sink, Exception ex, Int32& wip, Exception& error)
+   bei System.Reactive.Linq.ObservableImpl.TakeUntil`2._.OnError(Exception ex)
+   bei System.Reactive.Sink`1.ForwardOnError(Exception error)
+   bei System.Reactive.Linq.ObservableImpl.Merge`1.Observables._.InnerObserver.OnError(Exception error)
+   bei System.Reactive.Sink`1.ForwardOnError(Exception error)
+   bei System.Reactive.Sink`2.OnError(Exception error)
+   bei System.Reactive.Sink`1.ForwardOnError(Exception error)
+   bei System.Reactive.Sink`2.OnError(Exception error)
+   bei System.Reactive.Sink`1.ForwardOnError(Exception error)
+   bei System.Reactive.Linq.ObservableImpl.SelectMany`2.ObservableSelector._.InnerObserver.OnError(Exception error)
+   bei System.Reactive.Sink`1.ForwardOnError(Exception error)
+   bei System.Reactive.Linq.ObservableImpl.SelectMany`2.ObservableSelector._.InnerObserver.OnError(Exception error)
+   bei System.Reactive.Sink`1.ForwardOnError(Exception error)
+   bei System.Reactive.Sink`2.OnError(Exception error)
+   bei System.Reactive.Sink`2.OnError(Exception error)
+   bei System.Reactive.Sink`1.ForwardOnError(Exception error)
+   bei System.Reactive.Linq.ObservableImpl.SelectMany`2.ObservableSelector._.OnError(Exception error)
+   bei System.Reactive.Sink`1.ForwardOnError(Exception error)
+   bei System.Reactive.Linq.ObservableImpl.ToObservableRecursive`1._.LoopRec(IScheduler scheduler)
+   bei System.Reactive.Linq.ObservableImpl.ToObservableRecursive`1._.<>c.<LoopRec>b__5_0(IScheduler innerScheduler, _ this)
+   bei System.Reactive.Concurrency.ScheduledItem`2.InvokeCore()
+   bei System.Reactive.Concurrency.CurrentThreadScheduler.Trampoline.Run(SchedulerQueue`1 queue)
+   bei System.Reactive.Concurrency.CurrentThreadScheduler.Schedule[TState](TState state, TimeSpan dueTime, Func`3 action)
+   bei System.Reactive.Concurrency.LocalScheduler.Schedule[TState](TState state, Func`3 action)
+   bei System.Reactive.Concurrency.Scheduler.ScheduleAction[TState](IScheduler scheduler, TState state, Action`1 action)
+   bei System.Reactive.Producer`2.SubscribeRaw(IObserver`1 observer, Boolean enableSafeguard)
+   bei System.ObservableExtensions.SubscribeSafe[T](IObservable`1 source, IObserver`1 observer)
+   bei System.Reactive.Linq.ObservableImpl.SelectMany`2.ObservableSelector._.SubscribeInner(IObservable`1 inner)
+   bei System.Reactive.Linq.ObservableImpl.SelectMany`2.ObservableSelector._.OnNext(TSource value)
+   bei System.Reactive.Sink`1.ForwardOnNext(TTarget value)
+   bei System.Reactive.Linq.ObservableImpl.SelectMany`2.ObservableSelector._.InnerObserver.OnNext(TResult value)
+   bei System.Reactive.AutoDetachObserver`1.OnNextCore(T value)
+   bei System.Reactive.ObserverBase`1.OnNext(T value)
+   bei Xpand.Extensions.Reactive.Utility.Utility.<>c__DisplayClass13_1`1.<Trace>b__2(TSource v)
+   bei System.Reactive.AnonymousSafeObserver`1.OnNext(T value)
+   bei System.Reactive.Sink`1.ForwardOnNext(TTarget value)
+   bei System.Reactive.Linq.ObservableImpl.Select`2.Selector._.OnNext(TSource value)
+   bei System.Reactive.Subjects.Subject`1.OnNext(T value)
+   bei System.Reactive.Linq.ObservableImpl.FromEventPattern.Impl`2.<>c__DisplayClass3_0.<GetHandler>b__1(Object sender, TEventArgs eventArgs)
+   bei System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+   bei DevExpress.ExpressApp.BaseObjectSpace.OnCommitting(CancelEventArgs args)
+   bei DevExpress.ExpressApp.BaseObjectSpace.CommitChanges()
+   bei DevExpress.ExpressApp.SystemModule.DeleteObjectsViewController.Delete(SimpleActionExecuteEventArgs args)
+   bei DevExpress.ExpressApp.SystemModule.DeleteObjectsViewController.deleteAction_OnExecute(Object sender, SimpleActionExecuteEventArgs e)
+   bei DevExpress.ExpressApp.Actions.SimpleAction.RaiseExecute(ActionBaseEventArgs eventArgs)
+   bei DevExpress.ExpressApp.Actions.ActionBase.ExecuteCore(Delegate handler, ActionBaseEventArgs eventArgs)
+	InnerException is null
+
+--------------------------------------------------------------------------------
+Loaded assemblies
+	0Harmony, Version=2.0.0.9, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\0Harmony\v4.0_2.0.0.9__c52ffed5d5ff0958\0Harmony.dll
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Accessibility\v4.0_4.0.0.0__b03f5f7f11d50a3a\Accessibility.dll
+	ActionsAssembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	ConcurrentCollections, Version=1.1.0.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\ConcurrentCollections\v4.0_1.1.0.0__c52ffed5d5ff0958\ConcurrentCollections.dll
+	DelegateTypeFactory, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.BonusSkins.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.BonusSkins.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.BonusSkins.v20.1.dll
+	DevExpress.Charts.v20.1.Core, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Charts.v20.1.Core\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Charts.v20.1.Core.dll
+	DevExpress.Dashboard.v20.1.Core, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Dashboard.v20.1.Core\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Dashboard.v20.1.Core.dll
+	DevExpress.Dashboard.v20.1.Web, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Dashboard.v20.1.Web\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Dashboard.v20.1.Web.dll
+	DevExpress.Dashboard.v20.1.Web.WebForms, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Dashboard.v20.1.Web.WebForms\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Dashboard.v20.1.Web.WebForms.dll
+	DevExpress.Dashboard.v20.1.Win, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Dashboard.v20.1.Win\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Dashboard.v20.1.Win.dll
+	DevExpress.Data.Desktop.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.Desktop.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Data.Desktop.v20.1.dll
+	DevExpress.Data.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Data.v20.1.dll
+	DevExpress.Data.v20.1.resources, Version=20.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v20.1.resources\v4.0_20.1.0.0_de_b88d1754d700e49a\DevExpress.Data.v20.1.resources.dll
+	DevExpress.DataAccess.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.DataAccess.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.DataAccess.v20.1.dll
+	DevExpress.ExpressApp.Chart.Win.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Chart.Win.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Chart.Win.v20.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v20.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v20.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v20.1.resources, Version=20.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v20.1.resources\v4.0_20.1.0.0_de_b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v20.1.resources.dll
+	DevExpress.ExpressApp.HtmlPropertyEditor.Web.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.HtmlPropertyEditor.Web.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.HtmlPropertyEditor.Web.v20.1.dll
+	DevExpress.ExpressApp.PivotGrid.Win.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotGrid.Win.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotGrid.Win.v20.1.dll
+	DevExpress.ExpressApp.Scheduler.Web.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.Web.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.Web.v20.1.dll
+	DevExpress.ExpressApp.Scheduler.Win.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.Win.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.Win.v20.1.dll
+	DevExpress.ExpressApp.Security.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v20.1.dll
+	DevExpress.ExpressApp.Security.v20.1.resources, Version=20.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v20.1.resources\v4.0_20.1.0.0_de_b88d1754d700e49a\DevExpress.ExpressApp.Security.v20.1.resources.dll
+	DevExpress.ExpressApp.Security.Xpo.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v20.1.dll
+	DevExpress.ExpressApp.TreeListEditors.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.TreeListEditors.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.TreeListEditors.v20.1.dll
+	DevExpress.ExpressApp.TreeListEditors.Win.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.TreeListEditors.Win.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.TreeListEditors.Win.v20.1.dll
+	DevExpress.ExpressApp.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.v20.1.dll
+	DevExpress.ExpressApp.v20.1.resources, Version=20.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v20.1.resources\v4.0_20.1.0.0_de_b88d1754d700e49a\DevExpress.ExpressApp.v20.1.resources.dll
+	DevExpress.ExpressApp.Validation.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v20.1.dll
+	DevExpress.ExpressApp.Validation.v20.1.resources, Version=20.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v20.1.resources\v4.0_20.1.0.0_de_b88d1754d700e49a\DevExpress.ExpressApp.Validation.v20.1.resources.dll
+	DevExpress.ExpressApp.Web.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Web.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Web.v20.1.dll
+	DevExpress.ExpressApp.Win.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v20.1.dll
+	DevExpress.ExpressApp.Win.v20.1.resources, Version=20.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v20.1.resources\v4.0_20.1.0.0_de_b88d1754d700e49a\DevExpress.ExpressApp.Win.v20.1.resources.dll
+	DevExpress.ExpressApp.Xpo.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v20.1.dll
+	DevExpress.Images.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Images.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Images.v20.1.dll
+	DevExpress.Mvvm.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Mvvm.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Mvvm.v20.1.dll
+	DevExpress.Office.v20.1.Core, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Office.v20.1.Core\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Office.v20.1.Core.dll
+	DevExpress.Persistent.Base.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Persistent.Base.v20.1.dll
+	DevExpress.Persistent.BaseImpl.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v20.1.dll
+	DevExpress.PivotGrid.v20.1.Core, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.PivotGrid.v20.1.Core\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.PivotGrid.v20.1.Core.dll
+	DevExpress.Printing.v20.1.Core, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v20.1.Core\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Printing.v20.1.Core.dll
+	DevExpress.RichEdit.v20.1.Core, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.RichEdit.v20.1.Core\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.RichEdit.v20.1.Core.dll
+	DevExpress.Utils.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Utils.v20.1.dll
+	DevExpress.Web.ASPxHtmlEditor.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.ASPxHtmlEditor.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Web.ASPxHtmlEditor.v20.1.dll
+	DevExpress.Web.ASPxScheduler.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.ASPxScheduler.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Web.ASPxScheduler.v20.1.dll
+	DevExpress.Web.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Web.v20.1.dll
+	DevExpress.Xpo.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Xpo.v20.1.dll
+	DevExpress.XtraBars.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraBars.v20.1.dll
+	DevExpress.XtraBars.v20.1.resources, Version=20.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v20.1.resources\v4.0_20.1.0.0_de_b88d1754d700e49a\DevExpress.XtraBars.v20.1.resources.dll
+	DevExpress.XtraCharts.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraCharts.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraCharts.v20.1.dll
+	DevExpress.XtraCharts.v20.1.UI, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraCharts.v20.1.UI\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraCharts.v20.1.UI.dll
+	DevExpress.XtraCharts.v20.1.Wizard, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraCharts.v20.1.Wizard\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraCharts.v20.1.Wizard.dll
+	DevExpress.XtraEditors.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraEditors.v20.1.dll
+	DevExpress.XtraEditors.v20.1.resources, Version=20.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v20.1.resources\v4.0_20.1.0.0_de_b88d1754d700e49a\DevExpress.XtraEditors.v20.1.resources.dll
+	DevExpress.XtraGrid.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraGrid.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraGrid.v20.1.dll
+	DevExpress.XtraGrid.v20.1.resources, Version=20.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraGrid.v20.1.resources\v4.0_20.1.0.0_de_b88d1754d700e49a\DevExpress.XtraGrid.v20.1.resources.dll
+	DevExpress.XtraLayout.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraLayout.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraLayout.v20.1.dll
+	DevExpress.XtraLayout.v20.1.resources, Version=20.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraLayout.v20.1.resources\v4.0_20.1.0.0_de_b88d1754d700e49a\DevExpress.XtraLayout.v20.1.resources.dll
+	DevExpress.XtraNavBar.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraNavBar.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraNavBar.v20.1.dll
+	DevExpress.XtraPivotGrid.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraPivotGrid.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraPivotGrid.v20.1.dll
+	DevExpress.XtraReports.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraReports.v20.1.dll
+	DevExpress.XtraRichEdit.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraRichEdit.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraRichEdit.v20.1.dll
+	DevExpress.XtraScheduler.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraScheduler.v20.1.dll
+	DevExpress.XtraScheduler.v20.1.Core, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v20.1.Core\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraScheduler.v20.1.Core.dll
+	DevExpress.XtraTreeList.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraTreeList.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraTreeList.v20.1.dll
+	DevExpress.XtraVerticalGrid.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraVerticalGrid.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraVerticalGrid.v20.1.dll
+	DotNetZip, Version=1.11.0.0, Culture=neutral, PublicKeyToken=6583c7c814667745, Location=C:\WINDOWS\assembly\GAC_MSIL\DotNetZip\1.11.0.0__6583c7c814667745\DotNetZip.dll
+	Enums.NET, Version=3.0.0.0, Culture=neutral, PublicKeyToken=7ea1c1650d506225, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Enums.NET\v4.0_3.0.0.0__7ea1c1650d506225\Enums.NET.dll
+	Fasterflect, Version=2.0.7.0, Culture=neutral, PublicKeyToken=38d18473284c1ca7, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Fasterflect\v4.0_2.0.7.0__38d18473284c1ca7\Fasterflect.dll
+	HarmonySharedState, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	ModelMapperAssemblyWin, Version=2.201.35.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\bin\Debug\ModelMapperAssemblyWin.dll
+	Mono.Cecil, Version=0.11.2.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Mono.Cecil\v4.0_0.11.2.0__50cebf1cceb9d05e\Mono.Cecil.dll
+	MonoMod.Common, Version=20.5.27.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\MonoMod.Common\v4.0_20.5.27.0__c52ffed5d5ff0958\MonoMod.Common.dll
+	MonoMod.Utils.Cil.ILGeneratorProxy, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=de, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_de_b77a5c561934e089\mscorlib.resources.dll
+	netpri1x, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\netstandard\v4.0_2.0.0.0__cc7b13ffcd2ddd51\netstandard.dll
+	Solution3.Module, Version=1.0.0.4, Culture=neutral, PublicKeyToken=null, Location=C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\bin\Debug\Solution3.Module.dll
+	Solution3.Module.Win, Version=1.0.7535.20868, Culture=neutral, PublicKeyToken=null, Location=C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\bin\Debug\Solution3.Module.Win.dll
+	Solution3.Win, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null, Location=C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\bin\Debug\Solution3.Win.exe
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.DataAnnotations\v4.0_4.0.0.0__31bf3856ad364e35\System.ComponentModel.DataAnnotations.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Data.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Data.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Data.Linq.dll
+	System.Data.resources, Version=4.0.0.0, Culture=de, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Data.resources\v4.0_4.0.0.0_de_b77a5c561934e089\System.Data.resources.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.EnterpriseServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll
+	System.Interactive, Version=4.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, Location=C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\bin\Debug\System.Interactive.dll
+	System.Reactive, Version=4.3.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reactive\v4.0_4.3.0.0__94bc3704cddfc263\System.Reactive.dll
+	System.Reflection.Emit, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection.Emit\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection.Emit.ILGeneration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection.Emit.Lightweight\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.Emit.Lightweight.dll
+	System.resources, Version=4.0.0.0, Culture=de, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.resources\v4.0_4.0.0.0_de_b77a5c561934e089\System.resources.dll
+	System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Caching\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Caching.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.InteropServices.RuntimeInformation\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll
+	System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Transactions\v4.0_4.0.0.0__b77a5c561934e089\System.Transactions.dll
+	System.ValueTuple, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ValueTuple\v4.0_4.0.0.0__cc7b13ffcd2ddd51\System.ValueTuple.dll
+	System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll
+	System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.Services\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Windows.Forms.resources, Version=4.0.0.0, Culture=de, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms.resources\v4.0_4.0.0.0_de_b77a5c561934e089\System.Windows.Forms.resources.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll
+	txsshx4o, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\UIAutomationClient\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationClient.dll
+	Xpand.ExpressApp, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.dll
+	Xpand.ExpressApp.IO, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.IO\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.IO.dll
+	Xpand.ExpressApp.IO.Win, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.IO.Win\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.IO.Win.dll
+	Xpand.ExpressApp.Logic, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.Logic\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.Logic.dll
+	Xpand.ExpressApp.ModelArtifactState, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.ModelArtifactState\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.ModelArtifactState.dll
+	Xpand.ExpressApp.Security, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.Security\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.Security.dll
+	Xpand.ExpressApp.TreeListEditors, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.TreeListEditors\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.TreeListEditors.dll
+	Xpand.ExpressApp.TreeListEditors.Win, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.TreeListEditors.Win\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.TreeListEditors.Win.dll
+	Xpand.ExpressApp.Validation, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.Validation\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.Validation.dll
+	Xpand.ExpressApp.Win, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.Win\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.Win.dll
+	Xpand.Extensions, Version=2.201.34.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Extensions\v4.0_2.201.34.0__c52ffed5d5ff0958\Xpand.Extensions.dll
+	Xpand.Extensions.Mono.Cecil, Version=2.201.32.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Extensions.Mono.Cecil\v4.0_2.201.32.0__c52ffed5d5ff0958\Xpand.Extensions.Mono.Cecil.dll
+	Xpand.Extensions.Reactive, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Extensions.Reactive\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.Extensions.Reactive.dll
+	Xpand.Extensions.XAF, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Extensions.XAF\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.Extensions.XAF.dll
+	Xpand.Extensions.XAF.Xpo, Version=2.201.33.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Extensions.XAF.Xpo\v4.0_2.201.33.0__c52ffed5d5ff0958\Xpand.Extensions.XAF.Xpo.dll
+	Xpand.Persistent.Base, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Persistent.Base\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.Persistent.Base.dll
+	Xpand.Persistent.BaseImpl, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Persistent.BaseImpl\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.Persistent.BaseImpl.dll
+	Xpand.Utils, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Utils\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.Utils.dll
+	Xpand.XAF.Modules.CloneMemberValue, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.CloneMemberValue\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.CloneMemberValue.dll
+	Xpand.XAF.Modules.CloneModelView, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.CloneModelView\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.CloneModelView.dll
+	Xpand.XAF.Modules.GridListEditor, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.GridListEditor\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.GridListEditor.dll
+	Xpand.XAF.Modules.HideToolBar, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.HideToolBar\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.HideToolBar.dll
+	Xpand.XAF.Modules.ModelMapper, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.ModelMapper\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.ModelMapper.dll
+	Xpand.XAF.Modules.ModelViewInheritance, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.ModelViewInheritance\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.ModelViewInheritance.dll
+	Xpand.XAF.Modules.PositionInListview, Version=2.201.6.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.PositionInListview\v4.0_2.201.6.0__c52ffed5d5ff0958\Xpand.XAF.Modules.PositionInListview.dll
+	Xpand.XAF.Modules.ProgressBarViewItem, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.ProgressBarViewItem\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.ProgressBarViewItem.dll
+	Xpand.XAF.Modules.Reactive, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.Reactive\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.Reactive.dll
+	Xpand.XAF.Modules.Reactive.Logger, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.Reactive.Logger\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.Reactive.Logger.dll
+	Xpand.XAF.Modules.RefreshView, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.RefreshView\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.RefreshView.dll
+	Xpand.XAF.Modules.SequenceGenerator, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.SequenceGenerator\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.SequenceGenerator.dll
+	Xpand.XAF.Modules.ViewItemValue, Version=2.201.1.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.ViewItemValue\v4.0_2.201.1.0__c52ffed5d5ff0958\Xpand.XAF.Modules.ViewItemValue.dll
+	Xpand.Xpo, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Xpo\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.Xpo.dll
+================================================================================
+
+18.08.20 12:12:10.689	Window closing: fiff - owner
+18.08.20 12:12:10.700	Window closing: Student
+18.08.20 12:12:10.709	Window closing: Sequence Storage
+18.08.20 12:12:10.711	Window closing: Sequence Storage - Solution3
+18.08.20 12:12:10.760	Window closed: fiff - owner
+18.08.20 12:12:10.762	Window closed: Student
+18.08.20 12:12:10.762	Window closed: Sequence Storage
+18.08.20 12:12:10.763	Window closed: Sequence Storage - Solution3
+18.08.20 12:12:11.104	Save model changes
+===================
+18.08.20 12:12:11.120	Save model changes
+===================
+18.08.20 12:12:11.129	--------------------------------------------------------------------------------
+							Logoff completed
+
+18.08.20 12:12:11.132	Application stopping
+=====================
+18.08.20 14:25:57.347	================================================================================
+18.08.20 14:25:57.349	Trace Log for Solution3.Win.exe is started
+18.08.20 14:25:57.349	================================================================================
+18.08.20 14:25:57.350	System Environment
+	OS Version: Microsoft Windows NT 6.2.9200.0
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 20.1.4.0
+	eXpressApp File Version: 20.1.4.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+
+18.08.20 14:25:57.700	Initialize application
+=======================
+18.08.20 14:25:57.702		Command line arguments: 
+		C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\bin\Debug\Solution3.Win.exe
+18.08.20 14:25:58.727	The ValueManagerType is initialized by the default value: SimpleValueManager.
+18.08.20 14:25:58.739	Stack trace:
+   bei DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   bei DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   bei System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   bei DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   bei Xpand.ExpressApp.Logic.LogicInstallerManager.get_Instance()
+   bei Xpand.ExpressApp.ModelArtifactState.ModelArtifactStateModule..ctor()
+   bei Create_ModelArtifactStateModule()
+   bei DevExpress.ExpressApp.Utils.Reflection.TypeData.CreateInstance(Object[] args)
+   bei DevExpress.ExpressApp.ModuleBase.CreateModule(Type moduleType, ModelStoreBase diffsStore)
+   bei DevExpress.ExpressApp.Core.ModuleFactory.ModuleFactoryWithResourcesDiffsStore.CreateModule(Type moduleType)
+   bei DevExpress.ExpressApp.ApplicationModulesManager.EnsureModuleInList(Type moduleType, IList`1 moduleList, List`1 requiredModules)
+   bei DevExpress.ExpressApp.ApplicationModulesManager.AddModuleIntoList(ModuleBase module, IList`1 moduleList, List`1 requiredModules)
+   bei DevExpress.ExpressApp.ApplicationModulesManager.EnsureModuleInList(Type moduleType, IList`1 moduleList, List`1 requiredModules)
+   bei DevExpress.ExpressApp.ApplicationModulesManager.AddModuleIntoList(ModuleBase module, IList`1 moduleList, List`1 requiredModules)
+   bei DevExpress.ExpressApp.ModuleList.RefreshRequiredModules()
+   bei DevExpress.ExpressApp.ModuleList.OnInitializeComplete()
+   bei DevExpress.ExpressApp.Utils.BindingListBase`1.EndInit()
+   bei DevExpress.ExpressApp.XafApplication.EndInit()
+   bei Solution3.Win.Solution3WindowsFormsApplication.InitializeComponent() in C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\WinApplication.Designer.cs:Zeile 44.
+   bei Solution3.Win.Solution3WindowsFormsApplication..ctor() in C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\WinApplication.cs:Zeile 30.
+   bei Solution3.Win.Program.Main() in C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\Program.cs:Zeile 31.
+
+18.08.20 14:26:00.354	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+18.08.20 14:26:00.355	--------------------------------------------------------------------------------
+							
+
+18.08.20 14:26:00.367	--------------------------------------------------------------------------------
+Loaded assemblies
+	0Harmony, Version=2.0.0.9, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\0Harmony\v4.0_2.0.0.9__c52ffed5d5ff0958\0Harmony.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	ConcurrentCollections, Version=1.1.0.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\ConcurrentCollections\v4.0_1.1.0.0__c52ffed5d5ff0958\ConcurrentCollections.dll
+	DevExpress.Data.Desktop.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.Desktop.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Data.Desktop.v20.1.dll
+	DevExpress.Data.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Data.v20.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v20.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v20.1.dll
+	DevExpress.ExpressApp.Security.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v20.1.dll
+	DevExpress.ExpressApp.Security.Xpo.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v20.1.dll
+	DevExpress.ExpressApp.TreeListEditors.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.TreeListEditors.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.TreeListEditors.v20.1.dll
+	DevExpress.ExpressApp.TreeListEditors.Win.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.TreeListEditors.Win.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.TreeListEditors.Win.v20.1.dll
+	DevExpress.ExpressApp.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.v20.1.dll
+	DevExpress.ExpressApp.v20.1.resources, Version=20.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v20.1.resources\v4.0_20.1.0.0_de_b88d1754d700e49a\DevExpress.ExpressApp.v20.1.resources.dll
+	DevExpress.ExpressApp.Validation.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v20.1.dll
+	DevExpress.ExpressApp.Web.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Web.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Web.v20.1.dll
+	DevExpress.ExpressApp.Win.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v20.1.dll
+	DevExpress.ExpressApp.Xpo.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v20.1.dll
+	DevExpress.Persistent.Base.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Persistent.Base.v20.1.dll
+	DevExpress.Persistent.BaseImpl.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v20.1.dll
+	DevExpress.Printing.v20.1.Core, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v20.1.Core\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Printing.v20.1.Core.dll
+	DevExpress.Utils.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Utils.v20.1.dll
+	DevExpress.Xpo.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Xpo.v20.1.dll
+	DevExpress.XtraBars.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraBars.v20.1.dll
+	DevExpress.XtraEditors.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraEditors.v20.1.dll
+	DevExpress.XtraTreeList.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraTreeList.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraTreeList.v20.1.dll
+	Fasterflect, Version=2.0.7.0, Culture=neutral, PublicKeyToken=38d18473284c1ca7, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Fasterflect\v4.0_2.0.7.0__38d18473284c1ca7\Fasterflect.dll
+	HarmonySharedState, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	Mono.Cecil, Version=0.11.2.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Mono.Cecil\v4.0_0.11.2.0__50cebf1cceb9d05e\Mono.Cecil.dll
+	MonoMod.Common, Version=20.5.27.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\MonoMod.Common\v4.0_20.5.27.0__c52ffed5d5ff0958\MonoMod.Common.dll
+	MonoMod.Utils.Cil.ILGeneratorProxy, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=de, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_de_b77a5c561934e089\mscorlib.resources.dll
+	netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\netstandard\v4.0_2.0.0.0__cc7b13ffcd2ddd51\netstandard.dll
+	Solution3.Module, Version=1.0.0.4, Culture=neutral, PublicKeyToken=null, Location=C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\bin\Debug\Solution3.Module.dll
+	Solution3.Module.Win, Version=1.0.7535.20868, Culture=neutral, PublicKeyToken=null, Location=C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\bin\Debug\Solution3.Module.Win.dll
+	Solution3.Win, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null, Location=C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\bin\Debug\Solution3.Win.exe
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Reactive, Version=4.3.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reactive\v4.0_4.3.0.0__94bc3704cddfc263\System.Reactive.dll
+	System.Reflection.Emit.ILGeneration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection.Emit.ILGeneration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection.Emit.Lightweight\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.Emit.Lightweight.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.InteropServices.RuntimeInformation\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.ValueTuple, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ValueTuple\v4.0_4.0.0.0__cc7b13ffcd2ddd51\System.ValueTuple.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	Xpand.ExpressApp, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.dll
+	Xpand.ExpressApp.IO, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.IO\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.IO.dll
+	Xpand.ExpressApp.IO.Win, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.IO.Win\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.IO.Win.dll
+	Xpand.ExpressApp.Logic, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.Logic\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.Logic.dll
+	Xpand.ExpressApp.ModelArtifactState, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.ModelArtifactState\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.ModelArtifactState.dll
+	Xpand.ExpressApp.Security, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.Security\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.Security.dll
+	Xpand.ExpressApp.TreeListEditors, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.TreeListEditors\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.TreeListEditors.dll
+	Xpand.ExpressApp.TreeListEditors.Win, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.TreeListEditors.Win\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.TreeListEditors.Win.dll
+	Xpand.ExpressApp.Validation, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.Validation\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.Validation.dll
+	Xpand.ExpressApp.Win, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.Win\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.Win.dll
+	Xpand.Extensions, Version=2.201.34.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Extensions\v4.0_2.201.34.0__c52ffed5d5ff0958\Xpand.Extensions.dll
+	Xpand.Extensions.Mono.Cecil, Version=2.201.32.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Extensions.Mono.Cecil\v4.0_2.201.32.0__c52ffed5d5ff0958\Xpand.Extensions.Mono.Cecil.dll
+	Xpand.Extensions.Reactive, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Extensions.Reactive\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.Extensions.Reactive.dll
+	Xpand.Extensions.XAF, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Extensions.XAF\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.Extensions.XAF.dll
+	Xpand.Persistent.Base, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Persistent.Base\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.Persistent.Base.dll
+	Xpand.Utils, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Utils\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.Utils.dll
+	Xpand.XAF.Modules.CloneMemberValue, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.CloneMemberValue\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.CloneMemberValue.dll
+	Xpand.XAF.Modules.CloneModelView, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.CloneModelView\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.CloneModelView.dll
+	Xpand.XAF.Modules.GridListEditor, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.GridListEditor\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.GridListEditor.dll
+	Xpand.XAF.Modules.HideToolBar, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.HideToolBar\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.HideToolBar.dll
+	Xpand.XAF.Modules.ModelMapper, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.ModelMapper\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.ModelMapper.dll
+	Xpand.XAF.Modules.ModelViewInheritance, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.ModelViewInheritance\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.ModelViewInheritance.dll
+	Xpand.XAF.Modules.PositionInListview, Version=2.201.6.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.PositionInListview\v4.0_2.201.6.0__c52ffed5d5ff0958\Xpand.XAF.Modules.PositionInListview.dll
+	Xpand.XAF.Modules.ProgressBarViewItem, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.ProgressBarViewItem\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.ProgressBarViewItem.dll
+	Xpand.XAF.Modules.Reactive, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.Reactive\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.Reactive.dll
+	Xpand.XAF.Modules.Reactive.Logger, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.Reactive.Logger\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.Reactive.Logger.dll
+	Xpand.XAF.Modules.RefreshView, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.RefreshView\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.RefreshView.dll
+	Xpand.XAF.Modules.SequenceGenerator, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.SequenceGenerator\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.SequenceGenerator.dll
+	Xpand.XAF.Modules.ViewItemValue, Version=2.201.1.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.ViewItemValue\v4.0_2.201.1.0__c52ffed5d5ff0958\Xpand.XAF.Modules.ViewItemValue.dll
+	Xpand.Xpo, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Xpo\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.Xpo.dll
+18.08.20 14:26:00.370	Resolve the 'DevExpress.BonusSkins.v20.1, Version=20.1.4.0' assembly
+18.08.20 14:26:00.649	SetupModules
+18.08.20 14:26:01.234	Customize TypesInfo
+18.08.20 14:26:06.242		preferredLanguageName: (User language)
+								userLanguageName: de-DE
+
+18.08.20 14:26:06.242		preferredLanguageName: (User language)
+								userFormattingCultureName: de-DE
+								selectedFormattingCultureName: 
+
+18.08.20 14:26:06.374	--------------------------------------------------------------------------------
+							Start logon process
+
+18.08.20 14:26:06.379	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+18.08.20 14:26:06.380		ConnectionString: XpoProvider=MSSqlServer;data source=IF-PC24;integrated security=SSPI;initial catalog=Beispiel;XpoDataStorePool=True;
+18.08.20 14:26:06.380		ConnectionString: 
+18.08.20 14:26:06.382	Resolve the 'Microsoft.Data.SqlClient' assembly
+18.08.20 14:26:06.402	Resolve the 'System.Data.SqlClient' assembly
+18.08.20 14:26:06.565	--------------------------------------------------------------------------------
+							UpdateDB
+
+18.08.20 14:26:06.567	Resolve the 'Microsoft.Data.SqlClient' assembly
+18.08.20 14:26:06.572	Resolve the 'System.Data.SqlClient' assembly
+18.08.20 14:26:06.594	Resolve the 'Microsoft.Data.SqlClient' assembly
+18.08.20 14:26:06.602	Resolve the 'System.Data.SqlClient' assembly
+18.08.20 14:26:06.606	Resolve the 'Microsoft.Data.SqlClient' assembly
+18.08.20 14:26:06.611	Resolve the 'System.Data.SqlClient' assembly
+18.08.20 14:26:06.617		ConnectionString: XpoProvider=MSSqlServer;data source=IF-PC24;integrated security=SSPI;initial catalog=Beispiel;XpoDataStorePool=True;
+18.08.20 14:26:06.697	--------------------------------------------------------------------------------
+							Logon successful
+
+18.08.20 14:26:06.721	--------------------------------------------------------------------------------
+							Logon completed
+
+18.08.20 14:26:07.058		startUpActions: 1
+18.08.20 14:26:07.150	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+18.08.20 14:26:07.184	Generate default Model for Action containers
+18.08.20 14:26:08.334	Resolve the 'DevExpress.ExpressApp.Win.v20.1.XmlSerializers, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+18.08.20 14:26:08.366	Resolve the 'DevExpress.ExpressApp.Win.v20.1.XmlSerializers, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a' assembly
+18.08.20 14:26:08.482	Resolve the 'Microsoft.Data.SqlClient' assembly
+18.08.20 14:26:08.510	Resolve the 'System.Data.SqlClient' assembly
+18.08.20 14:26:10.303	Application startup done
+=========================
+18.08.20 14:26:10.304	Application running
+====================
+18.08.20 14:26:14.514	Window closing: Student
+18.08.20 14:26:14.562	Window closed: Student
+18.08.20 14:26:20.313	Window closing: Sequence Storage
+18.08.20 14:26:20.315	Window closed: Sequence Storage
+18.08.20 14:26:21.595	Window closing: fiff - owner
+18.08.20 14:26:21.604	Window closed: fiff - owner
+18.08.20 14:26:23.092	--------------------------------------------------------------------------------
+							Execute action
+
+18.08.20 14:26:23.093		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: Xpand.ExpressApp.Security.Controllers.ShowNavigationItemController
+
+18.08.20 14:26:23.094		SelectedItem: Sequence Storage
+18.08.20 14:26:23.223	Action 'ShowNavigationItem' done
+18.08.20 14:26:28.005	--------------------------------------------------------------------------------
+							Execute action
+
+18.08.20 14:26:28.006		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Delete
+								Category: Edit
+								Controller.Name: DevExpress.ExpressApp.SystemModule.DeleteObjectsViewController
+								Context.Name: Sequence Storage
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Solution3.Module.BusinessObjects.Beispiel.Student
+
+18.08.20 14:26:28.021	Resolve the 'Microsoft.Data.SqlClient' assembly
+18.08.20 14:26:28.043	Resolve the 'System.Data.SqlClient' assembly
+Solution3.Win.exe Error: 0 : 18.08.20 14:26:28.165	================================================================================
+The error occurred:
+
+	Type:       ObjectDisposedException
+	Message:    Auf das verworfene Objekt kann nicht zugegriffen werden.
+Objektname: "Solution3.Module.BusinessObjects.Beispiel.Student".
+	Data:       0 entries
+	Stack trace:
+
+   bei DevExpress.Xpo.PersistentBase.get_Session()
+   bei DevExpress.Xpo.Session.ThrowIfObjectFromDifferentSession(Object obj)
+   bei DevExpress.Xpo.Session.IsObjectToDelete(Object theObject)
+   bei DevExpress.ExpressApp.Xpo.XPObjectSpace.IsObjectToDelete(Object obj)
+   bei Xpand.XAF.Modules.SequenceGenerator.SequenceGeneratorService.<>c.<Configure>b__21_0(SequenceStorage storage)
+   bei System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   bei System.Reactive.Linq.ObservableImpl.ToObservableRecursive`1._.LoopRec(IScheduler scheduler)
+--- Ende der Stapelüberwachung vom vorhergehenden Ort, an dem die Ausnahme ausgelöst wurde ---
+   bei System.Reactive.PlatformServices.ExceptionServicesImpl.Rethrow(Exception exception)
+   bei System.Reactive.Stubs.<>c.<.cctor>b__2_1(Exception ex)
+   bei System.Reactive.AnonymousSafeObserver`1.OnError(Exception error)
+   bei System.Reactive.Sink`1.ForwardOnError(Exception error)
+   bei System.Reactive.HalfSerializer.ForwardOnError[T](ISink`1 sink, Exception ex, Int32& wip, Exception& error)
+   bei System.Reactive.Linq.ObservableImpl.TakeUntil`2._.OnError(Exception ex)
+   bei System.Reactive.Sink`1.ForwardOnError(Exception error)
+   bei System.Reactive.Linq.ObservableImpl.Merge`1.Observables._.InnerObserver.OnError(Exception error)
+   bei System.Reactive.Sink`1.ForwardOnError(Exception error)
+   bei System.Reactive.Sink`2.OnError(Exception error)
+   bei System.Reactive.Sink`1.ForwardOnError(Exception error)
+   bei System.Reactive.Sink`2.OnError(Exception error)
+   bei System.Reactive.Sink`1.ForwardOnError(Exception error)
+   bei System.Reactive.Linq.ObservableImpl.SelectMany`2.ObservableSelector._.InnerObserver.OnError(Exception error)
+   bei System.Reactive.Sink`1.ForwardOnError(Exception error)
+   bei System.Reactive.Linq.ObservableImpl.SelectMany`2.ObservableSelector._.InnerObserver.OnError(Exception error)
+   bei System.Reactive.Sink`1.ForwardOnError(Exception error)
+   bei System.Reactive.Sink`2.OnError(Exception error)
+   bei System.Reactive.Sink`2.OnError(Exception error)
+   bei System.Reactive.Sink`1.ForwardOnError(Exception error)
+   bei System.Reactive.Linq.ObservableImpl.SelectMany`2.ObservableSelector._.OnError(Exception error)
+   bei System.Reactive.Sink`1.ForwardOnError(Exception error)
+   bei System.Reactive.Linq.ObservableImpl.ToObservableRecursive`1._.LoopRec(IScheduler scheduler)
+   bei System.Reactive.Linq.ObservableImpl.ToObservableRecursive`1._.<>c.<LoopRec>b__5_0(IScheduler innerScheduler, _ this)
+   bei System.Reactive.Concurrency.ScheduledItem`2.InvokeCore()
+   bei System.Reactive.Concurrency.CurrentThreadScheduler.Trampoline.Run(SchedulerQueue`1 queue)
+   bei System.Reactive.Concurrency.CurrentThreadScheduler.Schedule[TState](TState state, TimeSpan dueTime, Func`3 action)
+   bei System.Reactive.Concurrency.LocalScheduler.Schedule[TState](TState state, Func`3 action)
+   bei System.Reactive.Concurrency.Scheduler.ScheduleAction[TState](IScheduler scheduler, TState state, Action`1 action)
+   bei System.Reactive.Producer`2.SubscribeRaw(IObserver`1 observer, Boolean enableSafeguard)
+   bei System.ObservableExtensions.SubscribeSafe[T](IObservable`1 source, IObserver`1 observer)
+   bei System.Reactive.Linq.ObservableImpl.SelectMany`2.ObservableSelector._.SubscribeInner(IObservable`1 inner)
+   bei System.Reactive.Linq.ObservableImpl.SelectMany`2.ObservableSelector._.OnNext(TSource value)
+   bei System.Reactive.Sink`1.ForwardOnNext(TTarget value)
+   bei System.Reactive.Linq.ObservableImpl.SelectMany`2.ObservableSelector._.InnerObserver.OnNext(TResult value)
+   bei System.Reactive.AutoDetachObserver`1.OnNextCore(T value)
+   bei System.Reactive.ObserverBase`1.OnNext(T value)
+   bei Xpand.Extensions.Reactive.Utility.Utility.<>c__DisplayClass13_1`1.<Trace>b__2(TSource v)
+   bei System.Reactive.AnonymousSafeObserver`1.OnNext(T value)
+   bei System.Reactive.Sink`1.ForwardOnNext(TTarget value)
+   bei System.Reactive.Linq.ObservableImpl.Select`2.Selector._.OnNext(TSource value)
+   bei System.Reactive.Subjects.Subject`1.OnNext(T value)
+   bei System.Reactive.Linq.ObservableImpl.FromEventPattern.Impl`2.<>c__DisplayClass3_0.<GetHandler>b__1(Object sender, TEventArgs eventArgs)
+   bei System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+   bei DevExpress.ExpressApp.BaseObjectSpace.OnCommitting(CancelEventArgs args)
+   bei DevExpress.ExpressApp.BaseObjectSpace.CommitChanges()
+   bei DevExpress.ExpressApp.SystemModule.DeleteObjectsViewController.Delete(SimpleActionExecuteEventArgs args)
+   bei DevExpress.ExpressApp.SystemModule.DeleteObjectsViewController.deleteAction_OnExecute(Object sender, SimpleActionExecuteEventArgs e)
+   bei DevExpress.ExpressApp.Actions.SimpleAction.RaiseExecute(ActionBaseEventArgs eventArgs)
+   bei DevExpress.ExpressApp.Actions.ActionBase.ExecuteCore(Delegate handler, ActionBaseEventArgs eventArgs)
+	InnerException is null
+
+--------------------------------------------------------------------------------
+Loaded assemblies
+	0Harmony, Version=2.0.0.9, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\0Harmony\v4.0_2.0.0.9__c52ffed5d5ff0958\0Harmony.dll
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Accessibility\v4.0_4.0.0.0__b03f5f7f11d50a3a\Accessibility.dll
+	ActionsAssembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	ConcurrentCollections, Version=1.1.0.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\ConcurrentCollections\v4.0_1.1.0.0__c52ffed5d5ff0958\ConcurrentCollections.dll
+	DelegateTypeFactory, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.BonusSkins.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.BonusSkins.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.BonusSkins.v20.1.dll
+	DevExpress.Charts.v20.1.Core, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Charts.v20.1.Core\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Charts.v20.1.Core.dll
+	DevExpress.Dashboard.v20.1.Core, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Dashboard.v20.1.Core\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Dashboard.v20.1.Core.dll
+	DevExpress.Dashboard.v20.1.Web, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Dashboard.v20.1.Web\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Dashboard.v20.1.Web.dll
+	DevExpress.Dashboard.v20.1.Web.WebForms, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Dashboard.v20.1.Web.WebForms\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Dashboard.v20.1.Web.WebForms.dll
+	DevExpress.Dashboard.v20.1.Win, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Dashboard.v20.1.Win\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Dashboard.v20.1.Win.dll
+	DevExpress.Data.Desktop.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.Desktop.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Data.Desktop.v20.1.dll
+	DevExpress.Data.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Data.v20.1.dll
+	DevExpress.Data.v20.1.resources, Version=20.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v20.1.resources\v4.0_20.1.0.0_de_b88d1754d700e49a\DevExpress.Data.v20.1.resources.dll
+	DevExpress.DataAccess.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.DataAccess.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.DataAccess.v20.1.dll
+	DevExpress.ExpressApp.Chart.Win.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Chart.Win.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Chart.Win.v20.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v20.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v20.1.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v20.1.resources, Version=20.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v20.1.resources\v4.0_20.1.0.0_de_b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v20.1.resources.dll
+	DevExpress.ExpressApp.HtmlPropertyEditor.Web.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.HtmlPropertyEditor.Web.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.HtmlPropertyEditor.Web.v20.1.dll
+	DevExpress.ExpressApp.PivotGrid.Win.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.PivotGrid.Win.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.PivotGrid.Win.v20.1.dll
+	DevExpress.ExpressApp.Scheduler.Web.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.Web.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.Web.v20.1.dll
+	DevExpress.ExpressApp.Scheduler.Win.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Scheduler.Win.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Scheduler.Win.v20.1.dll
+	DevExpress.ExpressApp.Security.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v20.1.dll
+	DevExpress.ExpressApp.Security.v20.1.resources, Version=20.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v20.1.resources\v4.0_20.1.0.0_de_b88d1754d700e49a\DevExpress.ExpressApp.Security.v20.1.resources.dll
+	DevExpress.ExpressApp.Security.Xpo.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v20.1.dll
+	DevExpress.ExpressApp.TreeListEditors.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.TreeListEditors.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.TreeListEditors.v20.1.dll
+	DevExpress.ExpressApp.TreeListEditors.Win.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.TreeListEditors.Win.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.TreeListEditors.Win.v20.1.dll
+	DevExpress.ExpressApp.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.v20.1.dll
+	DevExpress.ExpressApp.v20.1.resources, Version=20.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v20.1.resources\v4.0_20.1.0.0_de_b88d1754d700e49a\DevExpress.ExpressApp.v20.1.resources.dll
+	DevExpress.ExpressApp.Validation.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v20.1.dll
+	DevExpress.ExpressApp.Validation.v20.1.resources, Version=20.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v20.1.resources\v4.0_20.1.0.0_de_b88d1754d700e49a\DevExpress.ExpressApp.Validation.v20.1.resources.dll
+	DevExpress.ExpressApp.Web.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Web.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Web.v20.1.dll
+	DevExpress.ExpressApp.Win.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v20.1.dll
+	DevExpress.ExpressApp.Win.v20.1.resources, Version=20.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v20.1.resources\v4.0_20.1.0.0_de_b88d1754d700e49a\DevExpress.ExpressApp.Win.v20.1.resources.dll
+	DevExpress.ExpressApp.Xpo.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v20.1.dll
+	DevExpress.Images.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Images.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Images.v20.1.dll
+	DevExpress.Mvvm.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Mvvm.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Mvvm.v20.1.dll
+	DevExpress.Office.v20.1.Core, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Office.v20.1.Core\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Office.v20.1.Core.dll
+	DevExpress.Persistent.Base.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Persistent.Base.v20.1.dll
+	DevExpress.Persistent.BaseImpl.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v20.1.dll
+	DevExpress.PivotGrid.v20.1.Core, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.PivotGrid.v20.1.Core\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.PivotGrid.v20.1.Core.dll
+	DevExpress.Printing.v20.1.Core, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v20.1.Core\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Printing.v20.1.Core.dll
+	DevExpress.RichEdit.v20.1.Core, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.RichEdit.v20.1.Core\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.RichEdit.v20.1.Core.dll
+	DevExpress.Utils.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Utils.v20.1.dll
+	DevExpress.Web.ASPxHtmlEditor.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.ASPxHtmlEditor.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Web.ASPxHtmlEditor.v20.1.dll
+	DevExpress.Web.ASPxScheduler.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.ASPxScheduler.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Web.ASPxScheduler.v20.1.dll
+	DevExpress.Web.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Web.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Web.v20.1.dll
+	DevExpress.Xpo.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.Xpo.v20.1.dll
+	DevExpress.XtraBars.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraBars.v20.1.dll
+	DevExpress.XtraBars.v20.1.resources, Version=20.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v20.1.resources\v4.0_20.1.0.0_de_b88d1754d700e49a\DevExpress.XtraBars.v20.1.resources.dll
+	DevExpress.XtraCharts.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraCharts.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraCharts.v20.1.dll
+	DevExpress.XtraCharts.v20.1.UI, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraCharts.v20.1.UI\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraCharts.v20.1.UI.dll
+	DevExpress.XtraCharts.v20.1.Wizard, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraCharts.v20.1.Wizard\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraCharts.v20.1.Wizard.dll
+	DevExpress.XtraEditors.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraEditors.v20.1.dll
+	DevExpress.XtraEditors.v20.1.resources, Version=20.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v20.1.resources\v4.0_20.1.0.0_de_b88d1754d700e49a\DevExpress.XtraEditors.v20.1.resources.dll
+	DevExpress.XtraGrid.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraGrid.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraGrid.v20.1.dll
+	DevExpress.XtraGrid.v20.1.resources, Version=20.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraGrid.v20.1.resources\v4.0_20.1.0.0_de_b88d1754d700e49a\DevExpress.XtraGrid.v20.1.resources.dll
+	DevExpress.XtraLayout.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraLayout.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraLayout.v20.1.dll
+	DevExpress.XtraLayout.v20.1.resources, Version=20.1.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraLayout.v20.1.resources\v4.0_20.1.0.0_de_b88d1754d700e49a\DevExpress.XtraLayout.v20.1.resources.dll
+	DevExpress.XtraNavBar.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraNavBar.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraNavBar.v20.1.dll
+	DevExpress.XtraPivotGrid.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraPivotGrid.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraPivotGrid.v20.1.dll
+	DevExpress.XtraReports.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraReports.v20.1.dll
+	DevExpress.XtraRichEdit.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraRichEdit.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraRichEdit.v20.1.dll
+	DevExpress.XtraScheduler.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraScheduler.v20.1.dll
+	DevExpress.XtraScheduler.v20.1.Core, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraScheduler.v20.1.Core\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraScheduler.v20.1.Core.dll
+	DevExpress.XtraTreeList.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraTreeList.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraTreeList.v20.1.dll
+	DevExpress.XtraVerticalGrid.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraVerticalGrid.v20.1\v4.0_20.1.4.0__b88d1754d700e49a\DevExpress.XtraVerticalGrid.v20.1.dll
+	dfu5iymr, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	DotNetZip, Version=1.11.0.0, Culture=neutral, PublicKeyToken=6583c7c814667745, Location=C:\WINDOWS\assembly\GAC_MSIL\DotNetZip\1.11.0.0__6583c7c814667745\DotNetZip.dll
+	Enums.NET, Version=3.0.0.0, Culture=neutral, PublicKeyToken=7ea1c1650d506225, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Enums.NET\v4.0_3.0.0.0__7ea1c1650d506225\Enums.NET.dll
+	Fasterflect, Version=2.0.7.0, Culture=neutral, PublicKeyToken=38d18473284c1ca7, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Fasterflect\v4.0_2.0.7.0__38d18473284c1ca7\Fasterflect.dll
+	g0esvezl, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	HarmonySharedState, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	Microsoft.GeneratedCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	ModelMapperAssemblyWin, Version=2.201.35.0, Culture=neutral, PublicKeyToken=null, Location=C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\bin\Debug\ModelMapperAssemblyWin.dll
+	Mono.Cecil, Version=0.11.2.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Mono.Cecil\v4.0_0.11.2.0__50cebf1cceb9d05e\Mono.Cecil.dll
+	MonoMod.Common, Version=20.5.27.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\MonoMod.Common\v4.0_20.5.27.0__c52ffed5d5ff0958\MonoMod.Common.dll
+	MonoMod.Utils.Cil.ILGeneratorProxy, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	mscorlib.resources, Version=4.0.0.0, Culture=de, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_de_b77a5c561934e089\mscorlib.resources.dll
+	netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\netstandard\v4.0_2.0.0.0__cc7b13ffcd2ddd51\netstandard.dll
+	Solution3.Module, Version=1.0.0.4, Culture=neutral, PublicKeyToken=null, Location=C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\bin\Debug\Solution3.Module.dll
+	Solution3.Module.Win, Version=1.0.7535.20868, Culture=neutral, PublicKeyToken=null, Location=C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\bin\Debug\Solution3.Module.Win.dll
+	Solution3.Win, Version=1.0.0.1, Culture=neutral, PublicKeyToken=null, Location=C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\bin\Debug\Solution3.Win.exe
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.DataAnnotations\v4.0_4.0.0.0__31bf3856ad364e35\System.ComponentModel.DataAnnotations.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Data.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Data.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Data.Linq.dll
+	System.Data.resources, Version=4.0.0.0, Culture=de, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Data.resources\v4.0_4.0.0.0_de_b77a5c561934e089\System.Data.resources.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.EnterpriseServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll
+	System.Interactive, Version=4.0.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, Location=C:\Users\BDahmen\source\repos\Solution3\Solution3.Win\bin\Debug\System.Interactive.dll
+	System.Reactive, Version=4.3.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reactive\v4.0_4.3.0.0__94bc3704cddfc263\System.Reactive.dll
+	System.Reflection.Emit, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection.Emit\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection.Emit.ILGeneration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection.Emit.Lightweight\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.Emit.Lightweight.dll
+	System.resources, Version=4.0.0.0, Culture=de, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.resources\v4.0_4.0.0.0_de_b77a5c561934e089\System.resources.dll
+	System.Runtime.Caching, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Caching\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Caching.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.InteropServices.RuntimeInformation\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll
+	System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Transactions\v4.0_4.0.0.0__b77a5c561934e089\System.Transactions.dll
+	System.ValueTuple, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ValueTuple\v4.0_4.0.0.0__cc7b13ffcd2ddd51\System.ValueTuple.dll
+	System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll
+	System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Web.Services\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Windows.Forms.resources, Version=4.0.0.0, Culture=de, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms.resources\v4.0_4.0.0.0_de_b77a5c561934e089\System.Windows.Forms.resources.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+	System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll
+	UIAutomationClient, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\UIAutomationClient\v4.0_4.0.0.0__31bf3856ad364e35\UIAutomationClient.dll
+	Xpand.ExpressApp, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.dll
+	Xpand.ExpressApp.IO, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.IO\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.IO.dll
+	Xpand.ExpressApp.IO.Win, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.IO.Win\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.IO.Win.dll
+	Xpand.ExpressApp.Logic, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.Logic\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.Logic.dll
+	Xpand.ExpressApp.ModelArtifactState, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.ModelArtifactState\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.ModelArtifactState.dll
+	Xpand.ExpressApp.Security, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.Security\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.Security.dll
+	Xpand.ExpressApp.TreeListEditors, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.TreeListEditors\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.TreeListEditors.dll
+	Xpand.ExpressApp.TreeListEditors.Win, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.TreeListEditors.Win\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.TreeListEditors.Win.dll
+	Xpand.ExpressApp.Validation, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.Validation\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.Validation.dll
+	Xpand.ExpressApp.Win, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.ExpressApp.Win\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.ExpressApp.Win.dll
+	Xpand.Extensions, Version=2.201.34.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Extensions\v4.0_2.201.34.0__c52ffed5d5ff0958\Xpand.Extensions.dll
+	Xpand.Extensions.Mono.Cecil, Version=2.201.32.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Extensions.Mono.Cecil\v4.0_2.201.32.0__c52ffed5d5ff0958\Xpand.Extensions.Mono.Cecil.dll
+	Xpand.Extensions.Reactive, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Extensions.Reactive\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.Extensions.Reactive.dll
+	Xpand.Extensions.XAF, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Extensions.XAF\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.Extensions.XAF.dll
+	Xpand.Extensions.XAF.Xpo, Version=2.201.33.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Extensions.XAF.Xpo\v4.0_2.201.33.0__c52ffed5d5ff0958\Xpand.Extensions.XAF.Xpo.dll
+	Xpand.Persistent.Base, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Persistent.Base\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.Persistent.Base.dll
+	Xpand.Persistent.BaseImpl, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Persistent.BaseImpl\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.Persistent.BaseImpl.dll
+	Xpand.Utils, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Utils\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.Utils.dll
+	Xpand.XAF.Modules.CloneMemberValue, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.CloneMemberValue\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.CloneMemberValue.dll
+	Xpand.XAF.Modules.CloneModelView, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.CloneModelView\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.CloneModelView.dll
+	Xpand.XAF.Modules.GridListEditor, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.GridListEditor\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.GridListEditor.dll
+	Xpand.XAF.Modules.HideToolBar, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.HideToolBar\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.HideToolBar.dll
+	Xpand.XAF.Modules.ModelMapper, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.ModelMapper\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.ModelMapper.dll
+	Xpand.XAF.Modules.ModelViewInheritance, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.ModelViewInheritance\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.ModelViewInheritance.dll
+	Xpand.XAF.Modules.PositionInListview, Version=2.201.6.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.PositionInListview\v4.0_2.201.6.0__c52ffed5d5ff0958\Xpand.XAF.Modules.PositionInListview.dll
+	Xpand.XAF.Modules.ProgressBarViewItem, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.ProgressBarViewItem\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.ProgressBarViewItem.dll
+	Xpand.XAF.Modules.Reactive, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.Reactive\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.Reactive.dll
+	Xpand.XAF.Modules.Reactive.Logger, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.Reactive.Logger\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.Reactive.Logger.dll
+	Xpand.XAF.Modules.RefreshView, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.RefreshView\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.RefreshView.dll
+	Xpand.XAF.Modules.SequenceGenerator, Version=2.201.35.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.SequenceGenerator\v4.0_2.201.35.0__c52ffed5d5ff0958\Xpand.XAF.Modules.SequenceGenerator.dll
+	Xpand.XAF.Modules.ViewItemValue, Version=2.201.1.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.XAF.Modules.ViewItemValue\v4.0_2.201.1.0__c52ffed5d5ff0958\Xpand.XAF.Modules.ViewItemValue.dll
+	Xpand.Xpo, Version=20.1.401.0, Culture=neutral, PublicKeyToken=c52ffed5d5ff0958, Location=C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Xpand.Xpo\v4.0_20.1.401.0__c52ffed5d5ff0958\Xpand.Xpo.dll
+================================================================================
+
+18.08.20 14:26:31.113	--------------------------------------------------------------------------------
+							Execute action
+
+18.08.20 14:26:31.114		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Refresh
+								Category: View
+								Controller.Name: DevExpress.ExpressApp.SystemModule.RefreshController
+								Context.Name: Sequence Storage
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Solution3.Module.BusinessObjects.Beispiel.GroupB
+
+18.08.20 14:26:31.122	Action 'Refresh' done
+18.08.20 14:26:37.011	Window closing: Sequence Storage
+18.08.20 14:26:37.013	Window closing: Sequence Storage - Solution3
+18.08.20 14:26:37.036	Window closed: Sequence Storage
+18.08.20 14:26:37.037	Window closed: Sequence Storage - Solution3
+18.08.20 14:26:37.227	Save model changes
+===================
+18.08.20 14:26:37.242	Save model changes
+===================
+18.08.20 14:26:37.252	--------------------------------------------------------------------------------
+							Logoff completed
+
+18.08.20 14:26:37.255	Application stopping
+=====================

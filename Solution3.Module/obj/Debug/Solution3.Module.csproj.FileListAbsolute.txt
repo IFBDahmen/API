@@ -391,3 +391,4 @@ C:\Users\BDahmen\source\repos\Solution3\Solution3.Module\obj\Debug\Solution3.Mod
 C:\Users\BDahmen\source\repos\Solution3\Solution3.Module\obj\Debug\Solution3.Module.csproj.CopyComplete
 C:\Users\BDahmen\source\repos\Solution3\Solution3.Module\obj\Debug\Solution3.Module.dll
 C:\Users\BDahmen\source\repos\Solution3\Solution3.Module\obj\Debug\Solution3.Module.pdb
+C:\Users\BDahmen\source\repos\Solution3\Solution3.Module\obj\Debug\Solution3.Module.csprojAssemblyReference.cache

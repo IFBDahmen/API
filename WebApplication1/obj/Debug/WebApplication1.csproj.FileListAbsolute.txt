@@ -419,7 +419,6 @@ C:\Users\BDahmen\source\repos\Solution3\WebApplication1\bin\Xpand.XAF.Modules.Ma
 C:\Users\BDahmen\source\repos\Solution3\WebApplication1\bin\Xpand.XAF.Modules.Reactive.Logger.Hub.dll
 C:\Users\BDahmen\source\repos\Solution3\WebApplication1\bin\Xpand.XAF.Modules.SuppressConfirmation.dll
 C:\Users\BDahmen\source\repos\Solution3\WebApplication1\bin\Xpand.XAF.Modules.ViewEditMode.dll
-C:\Users\BDahmen\source\repos\Solution3\WebApplication1\bin\0Harmony.pdb
 C:\Users\BDahmen\source\repos\Solution3\WebApplication1\bin\ConcurrentCollections.pdb
 C:\Users\BDahmen\source\repos\Solution3\WebApplication1\bin\Enums.NET.xml
 C:\Users\BDahmen\source\repos\Solution3\WebApplication1\bin\Grpc.Core.pdb
